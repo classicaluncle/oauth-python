@@ -1,0 +1,8 @@
+cron:
+- description: weekly cleanout
+  url: /cleanup
+  schedule: every monday 00:00
+
+- description: hourly alive check
+  url: /checkalive
+  schedule: every 15 minutes
